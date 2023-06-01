@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Comme', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 6vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 a {
+    font-size: 1.6vw;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-weight: 800;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    border-bottom: 0.2vw solid #000;
+}
+
+.boton {
+    background-color: #ebebeb;
+    padding: 1vw 2vw;
+    color: #000;
+}
+
+
+
+
+
+
+

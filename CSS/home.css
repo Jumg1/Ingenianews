@@ -1,0 +1,27 @@
+.main-screen {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-screen ul li {
+    list-style: none;
+    margin: 4vw;
+    font-size: 2vw;
+    font-weight: 800;
+    border-bottom: 0.2vw solid #000;
+}
+
+.main-screen ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-screen ul li img {
+    height: 3vw;
+    margin:  0 0 0.6vw 2vw;
+}
